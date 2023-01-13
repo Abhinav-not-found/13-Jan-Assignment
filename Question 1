@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+class Rectangle{
+	public:
+		int length;
+		int breadth;
+		int area(){
+			return length*breadth;
+		}
+		Rectangle(){
+			length=0;
+			breadth=0;
+		}
+		Rectangle(int x, int y){
+			length=x;
+			breadth=y;
+		}
+		Rectangle(int z){
+			length=z;
+			breadth=z;
+		}
+};
+int main()
+{
+	Rectangle r1;
+	Rectangle r2(10);
+	Rectangle r3(10,20);
+
+}
