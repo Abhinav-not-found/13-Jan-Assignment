@@ -26,5 +26,6 @@ int main()
 	Rectangle r1;
 	Rectangle r2(10);
 	Rectangle r3(10,20);
+	cout<<r3.area();
 
 }
